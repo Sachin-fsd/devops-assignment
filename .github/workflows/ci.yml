@@ -49,5 +49,5 @@ jobs:
         with:
           context: .
           push: ${{ github.event_name != 'pull_request' }}
-          tags: ghcr.io/ashish5180/devops-practical-work-assignment/devops-app:latest
+          tags: ghcr.io/sachin-fsd/devops-assignment/devops-app:latest
           provenance: false
